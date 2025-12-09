@@ -1,0 +1,19 @@
+# GCP Project ID (required)
+project_id = "your-gcp-project-id"
+
+# Region and Zone (optional, defaults to Osaka)
+# region = "asia-northeast2"
+# zone   = "asia-northeast2-a"
+
+# Instance settings (optional)
+# instance_name = "dev-workspace"
+# machine_type  = "e2-medium"
+# disk_size_gb  = 20
+
+# SSH settings (required)
+ssh_user       = "your-username"
+ssh_public_key = "ssh-ed25519 AAAA... your-email@example.com"
+
+# SSH access restriction (optional)
+# Restrict to your IP for better security
+# ssh_source_ranges = ["your.public.ip.address/32"]
